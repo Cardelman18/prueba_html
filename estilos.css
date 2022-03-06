@@ -1,0 +1,2188 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lobster', cursive;
+}
+
+
+/* INICIO DE HEADER INICIO */
+
+
+#headerinicio{
+	width: 100%;
+	height: 350px;
+	background: url(imagenes/fondomenu.png);
+	background-size: 100% 450px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#izquierda{
+	width: 25%;
+	height: 5vh;
+	/*background: lightyellow;*/
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+#izquierda ul{
+	width: 100%;
+	height: auto;
+	/*background: lightgreen;*/
+	display: flex;
+}
+
+#izquierda ul li{
+	width: 25%;
+	height: auto;
+	/*background: #f28482;*/
+	display: flex;
+	justify-content: center;
+}
+
+#izquierda ul li a{
+	text-decoration: none;
+	/*background: lightgreen;*/
+	color: #fff;
+	font-size: 1.2em;
+	padding: 5px 5px;
+	letter-spacing: 2px;
+}
+
+#izquierda ul li a:hover{
+	color: green;
+}
+
+#logo{
+	margin: auto 0;
+	margin-right: 400px;
+	margin-bottom: 10px;
+	border: none;
+	display: flex;
+	justify-content: center;
+}
+
+#logo a{
+	text-decoration: none;
+}
+
+#logo h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 4em;
+	color: #411d13;
+	letter-spacing: 8px;
+	text-align: center;
+}
+
+#derecha{
+	width: 10%;
+	height: 5vh;
+	/*background: lightyellow;*/
+	display: flex;
+	margin-top: 25px;
+}
+
+#derecha ul{
+	width: 100%;
+	height: auto;
+	/*background: lightgreen;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#derecha ul .icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #fff;
+  margin: 0 10px;
+}
+
+#derecha ul .icon:hover{
+	fill: green;
+}
+
+
+
+/* INICIO DE SECTION1 INICIO */
+
+
+
+.secciones-generales{
+	width: 100%;
+	height: auto;
+	background: #FCEEB1;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+#section1{
+	width: 100%;
+	height: auto;
+	/*background: #8ecae6;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#frase{
+	width: 60%;
+	height: auto;
+	/*background: lightyellow;*/
+	margin: 50px 0;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+#frase h1{
+	margin: 10px 0;
+	font-size: 2em;
+}
+
+#frase p{
+	font-size: 1.4em;
+	font-family: cursive;
+	color: green;
+}
+
+#imagen1{
+	width: 70%;
+	height: auto;
+	margin: 20px 0;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	border: solid 4px silver;
+}
+
+#imagen1 img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+/* INICIO DE SECTION2 INICIO */
+
+
+
+#section2{
+	width: 100%;
+	height: auto;
+	/*background: #8ecae6;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#frase2{
+	width: 40%;
+	height: auto;
+	/*background: lightyellow;*/
+	text-align: center;
+	margin: 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#frase2 h1{
+	font-size: 2.5em;
+	padding: 20px 0;
+}
+
+#frase2 p{
+	width: 50%;
+	font-family: cursive;
+	font-size: 1.3em;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	text-align: start;
+	color: green;
+}
+
+#cajas{
+	width: 80%;
+	height: auto;
+	/*background: lightyellow;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.caja{
+	width: 40%;
+	height: auto;
+	/*background: red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.caja img{
+	width: 100%;
+	height: 400px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	border: solid 4px silver;
+	margin: 5px 5px;
+}
+
+.caja h1{
+	font-size: 1.3em;
+	padding: 5px 0;
+}
+
+.caja p{
+	font-size: 1.2em;
+	color: green;
+	font-family: cursive;
+	border: solid 4px silver;
+	margin-top: 10px;
+}
+
+#enlace1{
+	width: 100%;
+	height: auto;
+	/*background: #8ecae6;*/
+	text-align: center;
+	padding-top: 50px;
+}
+
+#enlace1 a{
+	font-size: 2em;
+	color: #f3722c;
+}
+
+#enlace1 a:hover{
+	color: green;
+}
+
+
+
+/* INICIO DE SECTION3 INICIO */
+
+
+
+#section3{
+	width: 100%;
+	height: 900px;
+	/*background: #8ecae6;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#section3 img{
+	width: 45%;
+	height: auto;
+	margin-left: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+	border: solid 4px silver;
+}
+
+#informacion{
+	width: 45%;
+	height: 600px;
+	margin-right: 50px;
+	/*background: lightyellow;*/
+	border: solid 4px silver;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#informacion h1{
+	font-size: 2.5em;
+	margin-top: 50px;
+}
+
+#informacion p{
+	width: 70%;
+	font-size: 1.4em;
+	font-family: cursive;
+	margin: 50px 0;
+	text-align: start;
+	color: green;
+}
+
+#informacion #btn{
+	padding: 15px;
+	background: #f3722c;
+	font-size: 1.3em;
+	margin-top: 10px;
+	border: solid 1px #000;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+}
+
+#informacion #btn:hover{
+	cursor: pointer;
+	background: green;
+}
+
+
+
+/* INICIO DE FOOTER INICIO */
+
+
+
+#footerinicio{
+	width: 100%;
+	height: auto;
+	background: #FCEEB1;
+	border-top: solid 2px #000;
+	padding: 50px 0;
+}
+
+#siguenos{
+	width: 40%;
+	height: auto;
+	/*background: lightyellow;*/
+	padding: 30px 50px;
+}
+
+#siguenos h1{
+	font-size: 1.8em;
+	padding: 10px 0;
+}
+
+#siguenos ul{
+	width: 30%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+}
+
+#siguenos .icon{
+	display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #000;
+  margin: 0 20px;
+}
+
+#siguenos .icon:hover{
+	fill: green;
+}
+
+#notelopierdas{
+	width: 40%;
+	height: auto;
+	/*background: lightblue;*/
+	padding: 20px 50px;
+}
+
+#notelopierdas h1{
+	font-size: 1.8em;
+	padding: 10px 0;
+}
+
+#notelopierdas p{
+	font-size: 1.1em;
+	font-family: cursive;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#registrate{
+	width: 40%;
+	height: 100px;
+	/*background: lightgreen;*/
+	padding: 0px 50px;
+}
+
+#registrate input{
+	width: 45%;
+	height: 40px;
+	font-family: cursive;
+	box-shadow: 0 0 10px rgba(0,0,0,.7)
+}
+
+#registrate #registro{
+	font-size: 1.2em;
+	padding: 8px 10px;
+	margin: 0 50px;
+	background: #f3722c;
+	border: 1px solid #000;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+}
+
+#registrate #registro:hover{
+	cursor: pointer;
+	background: green;
+}
+
+#derechosreservados{
+	width: 100%;
+	height: auto;
+	/*background: red;*/
+	text-align: center;
+	margin-top: 70px;
+}
+
+#derechosreservados h3{
+	font-family: cursive;
+}
+
+
+
+/* INICIO DE PRODUCTOS SECTION1 (MARCIANOS) INICIO */
+
+
+#prod-section1{
+	width: 100%;
+	height: auto;
+}
+
+#prod-menu{
+	width: 100%;
+	height: 30vh;
+	/*background: red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 0;
+}
+
+#prod-menu a{
+	text-decoration: none;
+	color: #000;
+}
+
+#prod-menu h1{
+	letter-spacing: 3px;
+	font-size: 2.8em;
+	padding: 30px 0;
+	color: #e85d04;
+}
+
+#prod-menu nav{
+	width: 40%;
+	height: auto;
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+	/*background: brown;*/
+}
+
+#prod-menu nav ul{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	/*background: pink;*/
+}
+
+#prod-menu ul li{
+	width: 100%;
+	height: auto;
+	display: flex;
+	padding: 5px;
+	/*background: green;*/
+	justify-content: flex-start;
+}
+
+#prod-menu ul li a{
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 1.2em;
+	color: #e85d04;
+	margin: 0 auto;
+	padding: 10px;
+	border-right: solid 4px silver;
+	/*background: yellow;*/
+}
+
+#prod-menu ul li:hover a{
+	color: green;
+}
+
+#prod-menu ul li:last-child a{
+	border: none;
+}
+
+.cajas-marcianos{
+	width: 80%;
+	height: auto;
+	/*background: pink;*/
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+.cajas{
+	width: 25%;
+	height: auto;
+	/*background: red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px auto;
+}
+
+.cajas img{
+	width: 100%;
+	height: 40vh;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+	border: solid 4px silver;
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.cajas:hover img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.cajas h1{
+	font-size: 1.6em;
+	color: purple;
+	letter-spacing: 2px;
+	margin: 10px 0;
+	padding: 10px 5px;
+}
+
+.cajas h2{
+	font-size: 1.3em;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+.cajas p{
+	font-size: 1.2em;
+	color: green;
+	font-family: cursive;
+	border: solid 4px silver;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+
+
+
+/* INICIO DE PRODUCTOS SECTION2 (CREMOLADAS) INICIO */
+
+
+
+
+.cajas-cremoladas{
+	width: 90%;
+	height: auto;
+	/*background: pink;*/
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.cajas-crem{
+	width: 27%;
+	height: auto;
+	/*background: red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 30px;
+}
+
+.cajas-crem img{
+	width: 100%;
+	height: 40vh;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+	border: solid 4px silver;
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.cajas-crem:hover img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.cajas-crem h2{
+	font-size: 1.3em;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+.cajas-crem p{
+	font-size: 1.2em;
+	color: green;
+	font-family: cursive;
+	border: solid 4px silver;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+
+
+
+/* INICIO DE PRODUCTOS SECTION3 (GELATINAS) INICIO */
+
+
+
+
+.cajas-gelatinas{
+	width: 90%;
+	height: auto;
+	/*background: pink;*/
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.cajas-gela{
+	width: 33%;
+	height: auto;
+	/*background: red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 30px;
+}
+
+.cajas-gela img{
+	width: 100%;
+	height: 40vh;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+	border: solid 4px silver;
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.cajas-gela:hover img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.cajas-gela h2{
+	font-size: 1.3em;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+.cajas-gela p{
+	font-size: 1.2em;
+	color: green;
+	font-family: cursive;
+	border: solid 4px silver;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+
+
+
+/* INICIO DE PRODUCTOS SECTION3 (REFRESCOS) INICIO */
+
+
+
+
+.cajas-refrescos{
+	width: 90%;
+	height: auto;
+	/*background: pink;*/
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.cajas-refres{
+	width: 25%;
+	height: auto;
+	/*background: red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 30px;
+}
+
+.cajas-refres img{
+	width: 100%;
+	height: 40vh;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+	border: solid 4px silver;
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.cajas-refres:hover img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.cajas-refres h2{
+	font-size: 1.3em;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+.cajas-refres p{
+	font-size: 1.2em;
+	color: green;
+	font-family: cursive;
+	border: solid 4px silver;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+
+
+
+/* INICIO DE NUESTRA HISTORIA INICIO */
+
+
+
+
+#historia{
+	width: 65%;
+	height: auto;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#historia h1{
+	font-size: 2.8em;
+	text-align: center;
+	padding: 30px 0;
+	color: #e85d04;
+	letter-spacing: 2px;
+}
+
+#historia p{
+	width: 65%;
+	height: auto;
+	font-family: cursive;
+	font-size: 1.2em;
+	text-align: start;
+	padding: 30px 0;
+}
+
+#historia cite{
+	font-size: 1.2em;
+	color: green;
+	letter-spacing: 1px;
+}
+
+#historia img{
+	width: 100%;
+	height: auto;
+	margin: 50px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	border: solid 4px silver;
+}
+
+
+
+
+/* INICIO DE CONTACTANOS INICIO */
+
+
+
+
+#ponteencontacto{
+	width: 70%;
+	height: auto;
+
+	margin: 50px auto;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#ponteencontacto h1{
+	font-size: 2.8em;
+	padding: 10px 5px;
+	margin: 30px 0;
+	color: #e85d04;
+	letter-spacing: 2px;
+}
+
+#ponteencontacto p{
+	width: 50%;
+	height: auto;
+	font-size: 1.2em;
+	font-family: cursive;
+	margin: 20px auto;
+	padding: 10px 0;
+}
+
+#ponteencontacto strong{
+	font-family: cursive;
+}
+
+#ponteencontacto h2{
+	font-size: 1.25em;
+	margin: 20px auto;
+	font-family: cursive;
+}
+
+#datosymapa{
+	width: 80%;
+	height: auto;
+	padding: 50px 0;
+	margin: 50px auto;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+form{
+	width: 49%;
+	height: auto;
+	margin-left: 30px;
+}
+
+label{
+	display: block;
+	margin-top: 15px;
+	font-family: cursive;
+	font-size: 1.05em;
+	color: #001219;
+	font-weight: bold;
+}
+
+input{
+	width: 90%;
+	height: 35px;
+	font-family: cursive;
+}
+
+textarea{
+	width: 90%;
+	height: 100px;
+	font-family: cursive;
+}
+
+#boton{
+	width: 150px;
+	height: 30px;
+	background: #e85d04;
+	margin: 15px 0;
+	border: none;
+	margin-left: calc(90% - 150px);
+}
+
+#boton:hover{
+	background: green;
+	cursor: pointer;
+}
+
+.mapa{
+	width: 39%;
+	height: auto;
+	border: solid 4px silver;
+	display: flex;
+	justify-content: center;
+	margin-right: 50px;
+}
+
+
+
+/* INICIO DE GALERIA INICIO */
+
+
+
+
+
+.seccion-galeria{
+	width: 100%;
+	height: auto;
+	background: #FCEEB1;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.seccion-galeria h1{
+	width: 100%;
+	height: auto;
+	font-size: 2.8em;
+	color: #e85d04;
+	text-align: center;
+	padding: 10px 5px;
+	margin: 50px auto;
+	letter-spacing: 2px;
+}
+
+.fotos{
+	width: 90%;
+	height: auto;
+	margin: 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.imagenes{
+	width: 400px;
+	height: auto;
+	margin: 40px;
+}
+
+.imagenes img{
+	width: 100%;
+	height: auto;
+	border: solid 4px silver;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.seccion-galeria:hover img{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1280px) INICIO */
+
+
+
+@media screen and (max-width: 1280px){
+
+	#headerinicio{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#izquierda{
+		width: 80%;
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+
+	#logo{
+		text-align: center;
+		margin-right: 0px;
+		margin-top: 110px;
+	}
+
+	#derecha{
+		width: 80%;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		padding: 10px 0px;
+	}
+
+	#derecha ul .icon{
+		width: 2em;
+		height: 2em;
+		fill: brown;
+	}
+
+	#frase{
+		width: 80%;
+	}
+
+	#frase p{
+		margin-top: 30px;
+	}
+
+	#frase2{
+		width: 50%;
+	}
+
+	#frase2 p{
+		width: 70%;
+	}
+
+	#section3{
+		height: 700px;
+	}
+
+	#section3 img{
+		width: 40%;
+		margin-left: 25px;
+	}
+
+	#informacion{
+		width: 50%;
+		height: auto;
+		margin-right: 25px;
+	}
+
+	#informacion h1{
+		width: 100%;
+		font-size: 2em;
+		margin-top: 30px;
+	}
+
+	#informacion p{
+		width: 85%;
+		margin: 25px 0;
+	}
+
+	#informacion #btn{
+		padding: 8px;
+		margin-bottom: 20px;
+	}
+
+	#footerinicio{
+		padding: 25px;
+	}
+
+	#siguenos ul{
+		justify-content: start;
+	}
+
+	#notelopierdas{
+		width: 60%;
+	}
+
+	#registrate{
+		width: 70%;
+	}
+
+}
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1000px) INICIO */
+
+
+
+@media screen and (max-width: 1000px){
+	#frase{
+		width: 100%;
+	}
+
+	#frase2{
+		width: 80%;
+	}
+
+	#frase2 p{
+		width: 55%;
+	}
+
+	#cajas{
+		width: 85%;
+	}
+
+	.caja{
+		height: 25vh;
+	}
+
+	#section3{
+		margin: 80px 0;
+		height: auto;
+	}
+
+	#section3 img{
+		width: 43%;
+		margin-left: 20px;
+	}
+
+	#informacion h1{
+		margin-top: 10px;
+	}
+
+	#informacion p{
+		width: 90%;
+		font-size: 1.2em;
+	}
+
+	#informacion #btn{
+		padding: 5px;
+	}
+
+	#footerinicio{
+		padding: 0px;
+	}
+
+	#siguenos h1{
+		font-size: 1.6em;
+	}
+
+	#notelopierdas{
+		width: 80%;
+	}
+
+	#notelopierdas h1{
+		font-size: 1.6em;
+	}
+
+	#notelopierdas p{
+		font-size: 1em;
+	}
+
+	#registrate #registro{
+		font-size: 1.1em;
+	}
+
+	#derechosreservados{
+		margin-top: 20px;
+		padding: 20px 0;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (769px) INICIO */
+
+
+
+@media screen and (max-width: 769px){
+
+	#logo{
+		margin-top: 120px;
+	}
+
+	#logo h1{
+		letter-spacing: 7px;
+		font-size: 3.5em;
+	}
+
+	#frase h1{
+		font-size: 1.7em;
+	}
+
+	#frase p{
+		font-size: 1.2em;
+	}
+
+	#imagen1{
+		width: 80%;
+		margin: 0px;
+	}
+
+	#frase2 h1{
+		width: 100%;
+		font-size: 2em;
+	}
+
+	#frase2 p{
+		width: 60%;
+		font-size: 1.1em;
+	}
+
+	#cajas{
+		width: 90%;
+		margin-bottom: 10px;
+	}
+
+	.caja{
+		height: 21vh;
+	}
+
+	.caja h1{
+		font-size: 1.2em;
+	}
+
+	.caja p{
+		font-size: 1.1em;
+	}
+
+	#section3{
+		margin: 50px auto;
+		height: auto;
+		flex-direction: column;
+	}
+
+	#section3 img{
+		width: 70%;
+		margin-left: 0px;
+		margin: 20px 0;
+	}
+
+	#informacion{
+		width: 85%;
+		margin-right: 0px;
+		margin: 20px 0;
+	}
+
+	#informacion h1{
+		font-size: 1.7em;
+	}
+
+	#informacion p{
+		width: 80%;
+		font-size: 1.1em;
+	}
+
+	#footerinicio{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#siguenos{
+		width: 70%;
+		text-align: center;
+	}
+
+	#siguenos ul{
+		margin: 10px auto;
+		justify-content: center;
+	}
+
+	#notelopierdas{
+		width: 100%;
+		text-align: center;
+	}
+
+	#registrate{
+		width: 100%;
+		text-align: center;
+		margin: 20px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#registrate input{
+		margin-bottom: 25px;
+	}
+
+	#registrate #registro{
+		font-size: 1em;
+	}
+
+	#derechosreservados{
+		margin-top: 50px;
+	}
+
+	#derechosreservados h3{
+		font-size: 1em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (469px) INICIO */
+
+
+
+
+@media screen and (max-width: 469px){
+
+	#headerinicio{
+		background-size: 100% 350px;
+	}
+
+	#izquierda{
+		width: 90%;
+		font-size: 1em;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	#logo h1{
+		font-size: 2.6em;
+		letter-spacing: 7px;
+	}
+
+	#frase{
+		margin: 25px;
+	}
+
+	#frase h1{
+		font-size: 1.5em;
+	}
+
+	#frase p{
+		font-size: 1.1em;
+	}
+
+	#imagen1{
+		width: 85%;
+	}
+
+	#frase2{
+		margin-top: 50px;
+	}
+
+	#frase2 h1{
+		font-size: 1.7em;
+	}
+
+	#frase2 p{
+		width: 90%;
+		font-size: 1em;
+		margin-bottom: 25px;
+	}
+
+	#cajas{
+		margin-top: -50px;
+		flex-direction: column;
+	}
+
+	.caja{
+		width: 60%;
+		height: 15vh;
+		margin: 30px auto;
+	}
+
+	.caja h1{
+		font-size: 1em;
+	}
+
+	.caja p{
+		font-size: 1em;
+	}
+
+	#enlace1{
+		padding: 10px;
+	}
+
+	#enlace1 a{
+		font-size: 1.5em;
+	}
+
+	#section3 img{
+		width: 85%;
+	}
+
+	#informacion h1{
+		font-size: 1.2em;
+		margin-top: 20px;
+	}
+
+	#informacion p{
+		width: 90%;
+		font-size: 1em;
+	}
+
+	#informacion #btn{
+		font-size: 1em;
+	}
+
+	#siguenos{
+		padding: 5px 25px;
+		margin: 10px auto;
+	}
+
+	#siguenos h1{
+		font-size: 1.5em;
+	}
+
+	#siguenos ul{
+		width: 80%;
+	}
+
+	#notelopierdas{
+		padding: 5px 25px;
+	}
+
+	#notelopierdas h1{
+		font-size: 1.5em;
+	}
+
+	#notelopierdas p{
+		font-size: 1em;
+	}
+
+	#registrate{
+		height: auto;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 10px 25px;
+	}
+
+	#registrate input{
+		margin-bottom: 0px;
+	}
+
+	#registrate #registro{
+		letter-spacing: 1px;
+	}
+
+	#derechosreservados{
+		margin-top: 25px;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1280px) PRODUCTOS (MARCIANOS) */
+
+
+
+
+@media screen and (max-width: 1280px){
+
+	#prod-menu{
+		height: 15vh;
+		align-items: center;
+	}
+
+	#prod-menu nav{
+		width: 60%;
+	}
+
+	#prod-menu nav ul{
+		justify-content: center;
+	}
+
+	.cajas-marcianos{
+		width: 95%;
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+
+	.cajas{
+		width: 30%;
+		height: auto;
+		margin: 0px auto;
+		margin-top: 25px;
+	}
+
+	.cajas img{
+		height: 20vh;
+	}
+
+	.cajas h1{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.cajas h2{
+		font-size: 1.2em;
+		letter-spacing: 0.5px;
+	}
+
+	.cajas p{
+		font-size: 1.1em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1000px) PRODUCTOS (MARCIANOS) */
+
+
+
+
+@media screen and (max-width: 1000px){
+
+	#prod-menu h1{
+		font-size: 2.5em;
+	}
+
+	#prod-menu ul li a{
+		font-size: 1.1em;
+	}
+
+	.cajas img{
+		height: 18vh;
+	}
+
+	.cajas h1{
+		font-size: 1.3em;
+	}
+
+	.cajas h2{
+		font-size: 1.1em;
+	}
+
+	.cajas p{
+		font-size: 1em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (769px) PRODUCTOS (MARCIANOS) */
+
+
+
+
+@media screen and (max-width: 769px){
+
+	#prod-menu nav{
+		width: 85%;
+	}
+
+	#prod-menu h1{
+		font-size: 2.3em;
+	}
+
+	#prod-menu ul li a{
+		font-size: 1em;
+	}
+
+	.cajas-marcianos{
+		flex-wrap: wrap;
+	}
+
+	.cajas{
+		width: 45%;
+		margin-top: 50px;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (469px) PRODUCTOS (MARCIANOS) */
+
+
+
+
+@media screen and (max-width: 469px){
+
+	#prod-menu{
+		height: 12vh;
+	}
+
+	#prod-menu nav{
+		width: 100%;
+	}
+
+	#prod-menu h1{
+		padding: 0px;
+		margin: 20px auto;
+	}
+
+	.cajas-marcianos{
+		
+	}
+
+	.cajas{
+		width: 85%;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1280px) PRODUCTOS (CREMOLADAS) */
+
+
+
+
+@media screen and (max-width: 1280px){
+
+	.cajas-cremoladas{
+		padding: 10px 0;
+		margin: 50px auto;
+	}
+
+	.cajas-crem{
+		height: auto;
+	}
+
+	.cajas-crem img{
+		height: 23vh;
+	}
+
+	.cajas-crem h2{
+		letter-spacing: 1px;
+		font-size: 1.2em;
+	}
+
+	.cajas-crem p{
+		font-size: 1.1em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1000px) PRODUCTOS (CREMOLADAS) */
+
+
+
+
+@media screen and (max-width: 1000px){
+
+	.cajas-crem{
+		width: 40%;
+	}
+
+}
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (769px) PRODUCTOS (CREMOLADAS) */
+
+
+
+
+@media screen and (max-width: 769px){
+
+	.cajas-crem{
+		height: 22vh;
+	}
+
+	.cajas-crem h2{
+		font-size: 1.1em;
+		letter-spacing: 0px;
+	}
+
+	.cajas-crem p{
+		font-size: 1em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (469px) PRODUCTOS (CREMOLADAS) */
+
+
+
+
+@media screen and (max-width: 469px){
+
+	.cajas-crem{
+		width: 70%;
+		height: 22vh;
+	}
+
+	.cajas-crem h2{
+		font-size: 1.1em;
+		letter-spacing: 1px;
+	}
+
+	.cajas-crem p{
+		font-size: 1em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1280px) PRODUCTOS (GELATINAS) */
+
+
+
+
+@media screen and (max-width: 1280px){
+
+	.cajas-gelatinas{
+		margin: 0px auto;
+	}
+
+	.cajas-gela{
+		height: auto;
+	}
+
+	.cajas-gela img{
+		height: 20vh;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1000px) PRODUCTOS (GELATINAS) */
+
+
+
+
+@media screen and (max-width: 1000px){
+
+	.cajas-gela img{
+		height: 16vh;
+	}
+
+}
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (769px) PRODUCTOS (GELATINAS) */
+
+
+
+
+@media screen and (max-width: 769px){
+
+	.cajas-gela img{
+		height: 14vh;
+	}
+
+	.cajas-gela h2{
+		font-size: 1.2em;
+		letter-spacing: 1px;
+	}
+
+	.cajas-gela p{
+		font-size: 1em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (469px) PRODUCTOS (GELATINAS) */
+
+
+
+
+@media screen and (max-width: 469px){
+
+	.cajas-gela{
+		width: 80%;
+	}
+
+	.cajas-gela img{
+		height: 15vh;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1280px) PRODUCTOS (REFRESCOS) */
+
+
+
+
+@media screen and (max-width: 1280px){
+
+	.cajas-refrescos{
+		width: 95%;
+		margin: 0px auto;
+	}
+
+	.cajas-refres{
+		width: 27%;
+		height: auto;
+		margin: 40px 20px;
+	}
+
+	.cajas-refres img{
+		height: 20vh;
+	}
+
+	.cajas-refres h2{
+		font-size: 1.2em;
+		letter-spacing: 0px;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1000px) PRODUCTOS (REFRESCOS) */
+
+
+
+
+@media screen and (max-width: 1000px){
+
+	.cajas-refrescos{
+		width: 100%;
+	}
+
+	.cajas-refres{
+		width: 40%;
+		height: auto;
+		margin: 30px 20px;
+	}
+
+	.cajas-refres img{
+		height: 22vh;
+	}
+
+	.cajas-refres h2{
+		font-size: 1.2em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (769px) PRODUCTOS (REFRESCOS) */
+
+
+
+
+@media screen and (max-width: 769px){
+
+	.cajas-refres img{
+		height: 18vh;
+	}
+
+	.cajas-refres h2{
+		font-size: 1.1em;
+	}
+
+	.cajas-refres p{
+		font-size: 1em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (469px) PRODUCTOS (REFRESCOS) */
+
+
+
+
+@media screen and (max-width: 469px){
+
+	.cajas-refres{
+		width: 80%;
+	}
+
+	.cajas-refres h2{
+		letter-spacing: 1px;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1280px) NUESTRA HISTORIA */
+
+
+
+
+@media screen and (max-width: 1280px){
+
+	#historia p{
+		width: 80%;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1000px) NUESTRA HISTORIA */
+
+
+
+
+@media screen and (max-width: 1000px){
+
+	#historia p{
+		width: 100%;
+	}
+
+}
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (769px) NUESTRA HISTORIA */
+
+
+
+
+@media screen and (max-width: 769px){
+
+	#historia{
+		width: 90%;
+	}
+
+	#historia h1{
+		font-size: 2.5em;
+	}
+
+	#historia p{
+		width: 100%;
+		font-size: 1.1em;
+		padding: 30px 10px;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (469px) NUESTRA HISTORIA */
+
+
+
+
+@media screen and (max-width: 469px){
+
+	#historia{
+		margin: 20px auto;
+	}
+
+	#historia h1{
+		font-size: 2.1em;
+	}
+
+	#historia p{
+		font-size: 1em;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1280px) CONTÁCTANOS */
+
+
+
+
+@media screen and (max-width: 1280px){
+
+	#ponteencontacto{
+		width: 80%;
+	}
+
+	#ponteencontacto h1{
+		font-size: 2.5em;
+	}
+
+	#datosymapa{
+		width: 95%;
+	}
+
+	form{
+		margin-left: 70px;
+	}
+
+	input{
+		width: 60%;
+		font-size: 1.025em;
+	}
+
+	textarea{
+		width: 70%;
+		height: 150px;
+	}
+
+	#boton{
+		height: 40px;
+		margin-left: calc(70% - 150px);
+	}
+
+	.mapa{
+		width: 45%;
+		height: 26.60vh;
+	}
+
+}
+
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1000px) CONTÁCTANOS */
+
+
+
+
+@media screen and (max-width: 1000px){
+
+	form{
+		margin-left: 30px;
+	}
+
+	input{
+		width: 80%;
+	}
+
+	textarea{
+		width: 80%;
+	}
+
+	#boton{
+		margin-left: calc(80% - 150px);
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (769px) CONTÁCTANOS */
+
+
+
+
+@media screen and (max-width: 769px){
+
+	#ponteencontacto{
+		width: 90%;
+		margin: 25px auto;
+	}
+
+	#ponteencontacto h1{
+		font-size: 2.2em;
+		letter-spacing: 1px;
+	}
+
+	#ponteencontacto p{
+		width: 70%;
+		font-size: 1.1em;
+	}
+
+	#datosymapa{
+		flex-direction: column;
+		align-items: center;
+		margin: 20px auto;
+		margin-bottom: 50px;
+	}
+
+	form{
+		width: 80%;
+		margin-bottom: 50px;
+		margin-left: 100px;
+	}
+
+	.mapa{
+		width: 80%;
+		margin-right: 0px;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (469px) CONTÁCTANOS */
+
+
+
+
+@media screen and (max-width: 469px){
+
+	#ponteencontacto{
+		width: 100%;
+	}
+
+	#ponteencontacto h1{
+		font-size: 2em;
+	}
+
+	#ponteencontacto p{
+		font-size: 1em;
+		margin: 0px auto;
+	}
+
+	form{
+		width: 90%;
+		margin-left: 60px;
+	}
+
+	input{
+		font-size: 1em;
+	}
+
+	.mapa{
+		width: 90%;
+		height: auto;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1280px) GALERÍA */
+
+
+
+
+@media screen and (max-width: 1280px){
+
+	.seccion-galeria h1{
+		font-size: 2.5em;
+	}
+
+	.fotos{
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.imagenes{
+		width: 300px;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (1000px) GALERÍA */
+
+
+
+
+@media screen and (max-width: 1000px){
+
+	.seccion-galeria h1{
+		font-size: 2.3em;
+	}
+
+	.imagenes{
+		width: 250px;
+	}
+
+}
+
+
+
+
+/* INICIO DE LOS MEDIAQUERIES (469px) GALERÍA */
+
+
+
+
+@media screen and (max-width: 469px){
+
+	.imagenes{
+		width: 300px;
+	}
+
+}
+
+
+
+
+
+
