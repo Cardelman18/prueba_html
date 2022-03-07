@@ -993,7 +993,7 @@ textarea{
 		width:100%;
 		margin-top: 0px;
 		padding: 10px 0px;
-		justify-content: center;
+		justify-content: flex-end;
 	}
 
 	#derecha ul .icon{
