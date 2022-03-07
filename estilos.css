@@ -89,8 +89,6 @@
 	height: auto;
 	/*background: lightgreen;*/
 	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 #derecha ul .icon {
@@ -445,12 +443,12 @@
 
 #prod-menu{
 	width: 100%;
-	height: 30vh;
+	height: 20vh;
 	/*background: red;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 40px 0;
+	padding: 20px 0;
 }
 
 #prod-menu a{
@@ -461,23 +459,24 @@
 #prod-menu h1{
 	letter-spacing: 3px;
 	font-size: 2.8em;
-	padding: 30px 0;
+	padding: 20px 0;
 	color: #e85d04;
 }
 
 #prod-menu nav{
 	width: 40%;
 	height: auto;
-	margin: 30px auto;
+	margin: 10px auto;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	/*background: brown;*/
 }
 
 #prod-menu nav ul{
 	width: 70%;
 	height: auto;
-	margin: 0 auto;
+	margin: auto;
 	display: flex;
 	/*background: pink;*/
 }
@@ -991,10 +990,10 @@ textarea{
 	}
 
 	#derecha{
-		width: 80%;
+		width:100%;
 		margin-top: 0px;
-		margin-bottom: 20px;
 		padding: 10px 0px;
+		justify-content: center;
 	}
 
 	#derecha ul .icon{
@@ -1075,6 +1074,12 @@ textarea{
 
 
 @media screen and (max-width: 1000px){
+
+	#logo h1{
+		font-size: 3.5em;
+		letter-spacing: 5px;
+	}
+
 	#frase{
 		width: 100%;
 	}
@@ -1439,6 +1444,11 @@ textarea{
 
 
 @media screen and (max-width: 1280px){
+
+	#derecha ul{
+		display: flex;
+		justify-content: center;
+	}
 
 	#prod-menu{
 		height: 15vh;
